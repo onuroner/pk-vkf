@@ -9,11 +9,11 @@ namespace VkApi.Controllers;
 
 [Route("vk/api/v1/[controller]")]
 [ApiController]
-public class TokenContoller : ControllerBase
+public class TokenController : ControllerBase
 {
     private IMediator mediator;
 
-    public TokenContoller(IMediator mediator)
+    public TokenController(IMediator mediator)
     {
         this.mediator = mediator;
     }

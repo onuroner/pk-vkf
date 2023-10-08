@@ -11,7 +11,7 @@ namespace VkApi.Controllers;
 public class Customers2Controller : ControllerBase
 {
     private readonly IUnitOfWork unitOfWork;
-    public Customers2Controller(UnitOfWork unitOfWork)
+    public Customers2Controller(IUnitOfWork unitOfWork)
     {
         this.unitOfWork = unitOfWork;
     }

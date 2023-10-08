@@ -1,12 +1,10 @@
 using FluentValidation;
-using Vk.Data.CustomRepository;
 using Vk.Schema;
 
 namespace Vk.Operation.Validation;
 
 public class CreateAccountValidator : AbstractValidator<AccountRequest>
 {
-
     public CreateAccountValidator()
     {
         RuleFor(x => x.Name).NotEmpty().WithMessage("Name is required.");

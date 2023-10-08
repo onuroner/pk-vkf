@@ -1,5 +1,4 @@
 using FluentValidation;
-using Vk.Data.CustomRepository;
 using Vk.Schema;
 
 namespace Vk.Operation.Validation;

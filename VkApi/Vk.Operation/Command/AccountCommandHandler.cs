@@ -3,7 +3,6 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Vk.Base.Response;
 using Vk.Data.Context;
-using Vk.Data.CustomRepository;
 using Vk.Data.Domain;
 using Vk.Schema;
 
@@ -28,8 +27,8 @@ public class AccountCommandHandler :
     public async Task<ApiResponse<AccountResponse>> Handle(CreateAccountCommand request, CancellationToken cancellationToken)
     {
         Account mapped = mapper.Map<Account>(request.Model);
-        
-        var entity = await dbContext.Set<Account>().AddAsync(mapped,cancellationToken);
+              var entity = await dbContext.Set<Account>().AddAsync(mapped,cancellationToken);
+  
         await dbContext.SaveChangesAsync(cancellationToken);
 
         var response = mapper.Map<AccountResponse>(entity.Entity);

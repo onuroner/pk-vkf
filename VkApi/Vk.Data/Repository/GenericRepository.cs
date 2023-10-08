@@ -88,6 +88,7 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
     {
         entity.InsertDate = DateTime.UtcNow;
         entity.InsertUserId = 1;
+        entity.IsActive = true;
         dbContext.Set<TEntity>().Add(entity);
     }
 
@@ -97,6 +98,7 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
         {
             x.InsertUserId = 1;
             x.InsertDate = DateTime.UtcNow;
+            x.IsActive = true;
         });
         dbContext.Set<TEntity>().AddRange(entities);
     }

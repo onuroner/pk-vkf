@@ -14,7 +14,7 @@ public class CustomersOldController : ControllerBase
 {
     private readonly VkDbContext dbContext;
     private readonly IUnitOfWork unitOfWork;
-    public CustomersOldController(VkDbContext dbContext,UnitOfWork unitOfWork)
+    public CustomersOldController(VkDbContext dbContext,IUnitOfWork unitOfWork)
     {
         this.dbContext = dbContext;
         this.unitOfWork = unitOfWork;

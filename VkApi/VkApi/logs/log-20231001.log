@@ -1280,3 +1280,61 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":[{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
 2023-10-01 15:07:22.941 [INF] -------------Request-End------------
+2023-10-01 15:11:11.484 [INF] App server is starting.
+2023-10-01 15:11:46.503 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-01 15:11:46.507 [INF] HeartBeat
+2023-10-01 15:11:46.508 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-01 15:11:46.523 [WRN] Failed to determine the https port for redirect.
+2023-10-01 15:12:42.925 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-01 15:12:42.927 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-01 15:12:42.927 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-01 15:12:42.927 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-01 15:12:42.927 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-01 15:12:42.927 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-01 15:18:27.586 [INF] -------------Request-Begin------------
+2023-10-01 15:18:27.588 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransferContoller 
+QueryString:  
+Request Body: {
+  "fromAccountId": 1,
+  "toAccountId": 2,
+  "amount": 500,
+  "description": "asdasdasdasdsadasdasdsadasd"
+}
+2023-10-01 15:18:27.588 [INF] 
+
+2023-10-01 15:18:27.588 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransferContoller 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Insufficent balance","response":null}
+2023-10-01 15:18:27.588 [INF] -------------Request-End------------
+2023-10-01 15:18:39.875 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-01 15:18:39.875 [INF] HeartBeat
+2023-10-01 15:18:39.875 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-01 15:19:03.883 [INF] -------------Request-Begin------------
+2023-10-01 15:19:03.884 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransferContoller 
+QueryString:  
+Request Body: {
+  "fromAccountId": 1,
+  "toAccountId": 2,
+  "amount": 50,
+  "description": "asdasdasdasdsadasdasdsadasd"
+}
+2023-10-01 15:19:03.884 [INF] 
+
+2023-10-01 15:19:03.884 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransferContoller 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"fromAccountId":1,"toAccountId":2,"amount":50,"description":"asdasdasdasdsadasdasdsadasd","referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","transactionDate":"2023-10-01T12:19:01.87856Z","transactionCode":"Virement"}}
+2023-10-01 15:19:03.884 [INF] -------------Request-End------------
