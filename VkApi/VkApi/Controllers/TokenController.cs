@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Vk.Base.Response;
 using Vk.Operation;
 using Vk.Schema;
+using VkApi.Middleware;
 
 namespace VkApi.Controllers;
 
@@ -26,6 +27,19 @@ public class TokenController : ControllerBase
         var result = await mediator.Send(operation);
         return result;
     }
+    
+        
+    [TypeFilter(typeof(LogResourceFilter))]
+    [TypeFilter(typeof(LogActionFilter))]
+    [TypeFilter(typeof(LogAuthorizationFilter))]
+    [TypeFilter(typeof(LogResourceFilter))]
+    [TypeFilter(typeof(LogExceptionFilter))]
+    [HttpGet("Test")]
+    public ApiResponse Get()
+    {
+        return new ApiResponse();
+    }
+
 
     
 }

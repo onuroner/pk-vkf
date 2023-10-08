@@ -249,3 +249,791 @@ StatusCode: 200
 Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
 2023-10-08 13:10:17.945 [INF] -------------Request-End------------
 2023-10-08 13:41:30.327 [INF] App server is starting.
+2023-10-08 13:47:51.268 [INF] App server is starting.
+2023-10-08 13:48:01.154 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 13:48:01.165 [INF] HeartBeat
+2023-10-08 13:48:01.168 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 13:48:01.182 [WRN] Failed to determine the https port for redirect.
+2023-10-08 13:48:32.028 [INF] LogAuthorizationFilter.OnAuthorization
+2023-10-08 13:48:54.006 [INF] LogResourceFilter.OnResourceExecuting
+2023-10-08 13:48:59.823 [INF] LogResourceFilter.OnResourceExecuting
+2023-10-08 13:49:27.201 [INF] LogActionFilter.OnActionExecuting
+2023-10-08 13:49:54.094 [INF] LogActionFilter.OnActionExecuted
+2023-10-08 13:50:07.716 [INF] LogResourceFilter.OnResourceExecuted
+2023-10-08 13:50:13.312 [INF] LogResourceFilter.OnResourceExecuted
+2023-10-08 13:50:28.082 [INF] -------------Request-Begin------------
+2023-10-08 13:50:28.083 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/Token/Test 
+QueryString:  
+Request Body: 
+2023-10-08 13:50:28.083 [INF] 
+
+2023-10-08 13:50:28.083 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/Token/Test 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-10-08 13:50:28.083 [INF] -------------Request-End------------
+2023-10-08 13:54:01.850 [INF] App server is starting.
+2023-10-08 13:54:16.756 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 13:54:16.760 [INF] HeartBeat
+2023-10-08 13:54:16.763 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 13:54:16.780 [WRN] Failed to determine the https port for redirect.
+2023-10-08 13:54:21.002 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:54:21.003 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:54:21.003 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:54:21.003 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:54:21.003 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:54:21.003 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:54:21.912 [INF] -------------Request-Begin------------
+2023-10-08 13:54:21.913 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 13:54:21.913 [INF] 
+
+2023-10-08 13:54:21.913 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 13:54:21.913 [INF] -------------Request-End------------
+2023-10-08 13:54:44.600 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 13:54:44.602 [INF] HeartBeat
+2023-10-08 13:54:44.603 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 13:55:09.302 [INF] App server is starting.
+2023-10-08 13:55:18.587 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 13:55:18.592 [INF] HeartBeat
+2023-10-08 13:55:18.594 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 13:55:18.609 [WRN] Failed to determine the https port for redirect.
+2023-10-08 13:55:23.707 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:55:23.708 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:55:23.709 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:55:23.709 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:55:23.709 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:55:23.709 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 13:55:24.666 [INF] -------------Request-Begin------------
+2023-10-08 13:55:24.666 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 13:55:24.666 [INF] 
+
+2023-10-08 13:55:24.667 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 13:55:24.667 [INF] -------------Request-End------------
+2023-10-08 13:56:17.582 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 13:56:17.583 [INF] HeartBeat
+2023-10-08 13:56:17.583 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 13:56:33.701 [INF] -------------Request-Begin------------
+2023-10-08 13:56:33.701 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString: ?minAmount=5 
+Request Body: 
+2023-10-08 13:56:33.701 [INF] 
+
+2023-10-08 13:56:33.701 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString: ?minAmount=5 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 13:56:33.701 [INF] -------------Request-End------------
+2023-10-08 13:57:23.366 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 13:57:23.367 [INF] HeartBeat
+2023-10-08 13:57:23.367 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:11:16.484 [INF] App server is starting.
+2023-10-08 14:11:28.144 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:11:28.147 [INF] HeartBeat
+2023-10-08 14:11:28.148 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:11:28.159 [WRN] Failed to determine the https port for redirect.
+2023-10-08 14:11:31.210 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:11:31.212 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:11:31.212 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:11:31.212 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:11:31.212 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:11:31.212 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:11:32.089 [INF] -------------Request-Begin------------
+2023-10-08 14:11:32.089 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 14:11:32.089 [INF] 
+
+2023-10-08 14:11:32.090 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 14:11:32.090 [INF] -------------Request-End------------
+2023-10-08 14:11:45.019 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:11:45.019 [INF] HeartBeat
+2023-10-08 14:11:45.019 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:12:15.480 [INF] -------------Request-Begin------------
+2023-10-08 14:12:15.482 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReferenceNumber/713e3e35ec84448e8f6340f055631fd6 
+QueryString:  
+Request Body: 
+2023-10-08 14:12:15.482 [INF] 
+
+2023-10-08 14:12:15.482 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReferenceNumber/713e3e35ec84448e8f6340f055631fd6 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 14:12:15.483 [INF] -------------Request-End------------
+2023-10-08 14:12:35.248 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:12:35.249 [INF] HeartBeat
+2023-10-08 14:12:35.250 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:12:54.088 [INF] -------------Request-Begin------------
+2023-10-08 14:12:54.088 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReferenceNumber/713e3e35ec84448e8f6340f055631fd6 
+QueryString:  
+Request Body: 
+2023-10-08 14:12:54.088 [INF] 
+
+2023-10-08 14:12:54.088 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReferenceNumber/713e3e35ec84448e8f6340f055631fd6 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 14:12:54.089 [INF] -------------Request-End------------
+2023-10-08 14:13:14.735 [INF] App server is starting.
+2023-10-08 14:13:47.416 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:13:47.419 [INF] HeartBeat
+2023-10-08 14:13:47.419 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:13:47.430 [WRN] Failed to determine the https port for redirect.
+2023-10-08 14:15:53.935 [INF] App server is starting.
+2023-10-08 14:47:43.568 [INF] App server is starting.
+2023-10-08 14:47:57.225 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:47:57.233 [INF] HeartBeat
+2023-10-08 14:47:57.234 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:47:57.245 [WRN] Failed to determine the https port for redirect.
+2023-10-08 14:47:58.008 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:47:58.009 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:47:58.009 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:47:58.009 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:47:58.009 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:47:58.009 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:47:59.002 [INF] -------------Request-Begin------------
+2023-10-08 14:47:59.002 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 14:47:59.003 [INF] 
+
+2023-10-08 14:47:59.003 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 14:47:59.003 [INF] -------------Request-End------------
+2023-10-08 14:48:09.737 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:48:09.738 [INF] HeartBeat
+2023-10-08 14:48:09.738 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:52:39.697 [FTL] Path=/vk/api/v1/MoneyTransfer/ByReference/713e3e35ec84448e8f6340f055631fd6 || Method=GET || Exception=It was not possible to connect to the redis server(s). UnableToConnect on 192.168.18.230:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 5s ago, v: 2.0.593.37019
+2023-10-08 14:52:39.862 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 28c6a570-5a4d-44b3-b0e5-1fa096c634b8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 14:52:39.910 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 28c6a570-5a4d-44b3-b0e5-1fa096c634b8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 14:52:39.912 [ERR] Connection id "0HMU7UHHA7B04", Request id "0HMU7UHHA7B04:00000004": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 28c6a570-5a4d-44b3-b0e5-1fa096c634b8 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-08 14:52:43.350 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:52:43.350 [INF] HeartBeat
+2023-10-08 14:52:43.351 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:53:14.660 [INF] App server is starting.
+2023-10-08 14:53:23.420 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:53:23.428 [INF] HeartBeat
+2023-10-08 14:53:23.430 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:53:23.451 [WRN] Failed to determine the https port for redirect.
+2023-10-08 14:54:36.980 [FTL] Path=/vk/api/v1/MoneyTransfer/ByReference/354345 || Method=GET || Exception=It was not possible to connect to the redis server(s). UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 5s ago, v: 2.0.593.37019
+2023-10-08 14:54:37.068 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9f7ab0e9-c3f1-4600-8abd-108a19c0c108 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 14:54:37.107 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9f7ab0e9-c3f1-4600-8abd-108a19c0c108 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 14:54:37.111 [ERR] Connection id "0HMU7UKK1U8TB", Request id "0HMU7UKK1U8TB:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 9f7ab0e9-c3f1-4600-8abd-108a19c0c108 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-08 14:54:40.078 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:54:40.078 [INF] HeartBeat
+2023-10-08 14:54:40.078 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:55:04.547 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:55:04.548 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:55:04.548 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:55:04.548 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:55:04.548 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:55:04.548 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:21.516 [INF] App server is starting.
+2023-10-08 14:57:30.614 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:57:30.622 [INF] HeartBeat
+2023-10-08 14:57:30.624 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:57:30.638 [WRN] Failed to determine the https port for redirect.
+2023-10-08 14:57:31.409 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:31.411 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:31.411 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:31.411 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:31.412 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:31.412 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 14:57:32.321 [INF] -------------Request-Begin------------
+2023-10-08 14:57:32.322 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 14:57:32.322 [INF] 
+
+2023-10-08 14:57:32.322 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 14:57:32.322 [INF] -------------Request-End------------
+2023-10-08 14:57:44.959 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:57:44.959 [INF] HeartBeat
+2023-10-08 14:57:44.959 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:58:08.537 [INF] -------------Request-Begin------------
+2023-10-08 14:58:08.538 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/713e3e35ec84448e8f6340f055631fd6 
+QueryString:  
+Request Body: 
+2023-10-08 14:58:08.538 [INF] 
+
+2023-10-08 14:58:08.539 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/713e3e35ec84448e8f6340f055631fd6 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 14:58:08.539 [INF] -------------Request-End------------
+2023-10-08 14:58:16.226 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:58:16.226 [INF] HeartBeat
+2023-10-08 14:58:16.226 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:58:51.377 [FTL] Path=/vk/api/v1/MoneyTransfer/ByReference/713e3e35ec84448e8f6340f055631fd6 || Method=GET || Exception=Unable to find a constructor to use for type Vk.Base.Response.ApiResponse`1[System.Collections.Generic.List`1[Vk.Schema.AccountTransactionResponse]]. A class should either have a default constructor, one constructor with arguments or a constructor marked with the JsonConstructor attribute. Path 'Success', line 1, position 11.
+2023-10-08 14:58:53.872 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id b941e73c-75a7-4d32-b4bf-a2a0805f4990 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 14:58:53.933 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id b941e73c-75a7-4d32-b4bf-a2a0805f4990 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 14:58:53.935 [ERR] Connection id "0HMU7UMTJVSTB", Request id "0HMU7UMTJVSTB:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id b941e73c-75a7-4d32-b4bf-a2a0805f4990 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-08 14:59:28.407 [INF] App server is starting.
+2023-10-08 14:59:36.974 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 14:59:36.976 [INF] HeartBeat
+2023-10-08 14:59:36.976 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 14:59:36.987 [WRN] Failed to determine the https port for redirect.
+2023-10-08 15:00:46.856 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:00:46.854 [FTL] Path=/vk/api/v1/MoneyTransfer/ByReference/713e3e35ec84448e8f6340f055631fd6 || Method=GET || Exception=Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Vk.Schema.AccountTransactionResponse]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Success', line 1, position 11.
+2023-10-08 15:00:46.858 [INF] HeartBeat
+2023-10-08 15:00:46.858 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:00:46.938 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id f5fa9017-4124-4538-b9bd-0e7bda991974 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 15:00:46.984 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id f5fa9017-4124-4538-b9bd-0e7bda991974 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 15:00:46.988 [ERR] Connection id "0HMU7UO3E6O7D", Request id "0HMU7UO3E6O7D:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id f5fa9017-4124-4538-b9bd-0e7bda991974 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-08 15:00:47.704 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:00:47.705 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:00:47.705 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:00:47.705 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:00:47.705 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:00:47.705 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:00:48.620 [INF] -------------Request-Begin------------
+2023-10-08 15:00:48.620 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 15:00:48.620 [INF] 
+
+2023-10-08 15:00:48.620 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:00:48.620 [INF] -------------Request-End------------
+2023-10-08 15:00:58.565 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:00:58.566 [INF] HeartBeat
+2023-10-08 15:00:58.566 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:01:11.881 [INF] -------------Request-Begin------------
+2023-10-08 15:01:11.882 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+Request Body: 
+2023-10-08 15:01:11.882 [INF] 
+
+2023-10-08 15:01:11.882 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:01:11.882 [INF] -------------Request-End------------
+2023-10-08 15:01:14.559 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:01:14.559 [INF] HeartBeat
+2023-10-08 15:01:14.559 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:01:26.011 [INF] -------------Request-Begin------------
+2023-10-08 15:01:26.012 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+Request Body: 
+2023-10-08 15:01:26.012 [INF] 
+
+2023-10-08 15:01:26.012 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:01:26.012 [INF] -------------Request-End------------
+2023-10-08 15:02:44.661 [INF] App server is starting.
+2023-10-08 15:03:17.782 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:03:17.788 [INF] HeartBeat
+2023-10-08 15:03:17.791 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:03:17.812 [WRN] Failed to determine the https port for redirect.
+2023-10-08 15:03:29.564 [FTL] Path=/vk/api/v1/MoneyTransfer/ByReference/713e3e35ec84448e8f6340f055631fd6 || Method=GET || Exception=Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Vk.Schema.AccountTransactionResponse]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'Success', line 1, position 11.
+2023-10-08 15:03:29.647 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3f9580cf-4b76-4082-aadf-839a974e38b6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 15:03:29.690 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3f9580cf-4b76-4082-aadf-839a974e38b6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-08 15:03:29.694 [ERR] Connection id "0HMU7UPTU5D58", Request id "0HMU7UPTU5D58:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id 3f9580cf-4b76-4082-aadf-839a974e38b6 and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in /Users/recep/Ptk/pk-vkf/VkApi/VkApi/Middleware/ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-10-08 15:03:49.285 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:03:49.285 [INF] HeartBeat
+2023-10-08 15:03:49.285 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:03:50.037 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:03:50.038 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:03:50.038 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:03:50.038 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:03:50.038 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:03:50.038 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:03:50.961 [INF] -------------Request-Begin------------
+2023-10-08 15:03:50.961 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 15:03:50.961 [INF] 
+
+2023-10-08 15:03:50.961 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:03:50.961 [INF] -------------Request-End------------
+2023-10-08 15:03:59.278 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:03:59.278 [INF] HeartBeat
+2023-10-08 15:03:59.278 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:04:06.645 [INF] -------------Request-Begin------------
+2023-10-08 15:04:06.647 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+Request Body: 
+2023-10-08 15:04:06.647 [INF] 
+
+2023-10-08 15:04:06.647 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:04:06.647 [INF] -------------Request-End------------
+2023-10-08 15:04:26.318 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:04:26.318 [INF] HeartBeat
+2023-10-08 15:04:26.318 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:04:51.178 [INF] -------------Request-Begin------------
+2023-10-08 15:04:51.179 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+Request Body: 
+2023-10-08 15:04:51.179 [INF] 
+
+2023-10-08 15:04:51.179 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:04:51.179 [INF] -------------Request-End------------
+2023-10-08 15:05:02.961 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:05:02.961 [INF] HeartBeat
+2023-10-08 15:05:02.961 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:05:02.992 [INF] -------------Request-Begin------------
+2023-10-08 15:05:02.992 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer 
+QueryString: ?cacheKey=45a78b8c3df1411faace2b98a1f711d2 
+Request Body: 
+2023-10-08 15:05:02.992 [INF] 
+
+2023-10-08 15:05:02.992 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer 
+QueryString: ?cacheKey=45a78b8c3df1411faace2b98a1f711d2 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-10-08 15:05:02.992 [INF] -------------Request-End------------
+2023-10-08 15:05:07.400 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:05:07.401 [INF] HeartBeat
+2023-10-08 15:05:07.401 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:05:15.154 [INF] -------------Request-Begin------------
+2023-10-08 15:05:15.154 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+Request Body: 
+2023-10-08 15:05:15.154 [INF] 
+
+2023-10-08 15:05:15.154 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:05:15.154 [INF] -------------Request-End------------
+2023-10-08 15:05:17.588 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:05:17.588 [INF] HeartBeat
+2023-10-08 15:05:17.588 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:05:29.157 [INF] -------------Request-Begin------------
+2023-10-08 15:05:29.158 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+Request Body: 
+2023-10-08 15:05:29.158 [INF] 
+
+2023-10-08 15:05:29.158 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByReference/45a78b8c3df1411faace2b98a1f711d2 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:05:29.158 [INF] -------------Request-End------------
+2023-10-08 15:09:59.720 [INF] App server is starting.
+2023-10-08 15:11:05.642 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:11:05.648 [INF] HeartBeat
+2023-10-08 15:11:05.650 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:11:05.662 [WRN] Failed to determine the https port for redirect.
+2023-10-08 15:11:05.737 [INF] -------------Request-Begin------------
+2023-10-08 15:11:05.737 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /favicon.ico 
+QueryString:  
+Request Body: 
+2023-10-08 15:11:05.737 [INF] 
+
+2023-10-08 15:11:05.737 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /favicon.ico 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-10-08 15:11:05.737 [INF] -------------Request-End------------
+2023-10-08 15:15:12.113 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:15:12.169 [INF] HeartBeat
+2023-10-08 15:15:12.169 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:15:12.209 [INF] -------------Request-Begin------------
+2023-10-08 15:15:12.209 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: //vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 15:15:12.210 [INF] 
+
+2023-10-08 15:15:12.210 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: //vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 404 
+Response Body: 
+2023-10-08 15:15:12.210 [INF] -------------Request-End------------
+2023-10-08 15:15:38.936 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-08 15:15:38.939 [INF] HeartBeat
+2023-10-08 15:15:38.940 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-08 15:15:39.739 [WRN] The 'bool' property 'IsActive' on entity type 'Account' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:15:39.740 [WRN] The 'bool' property 'IsActive' on entity type 'AccountTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:15:39.740 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:15:39.740 [WRN] The 'bool' property 'IsActive' on entity type 'Card' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:15:39.740 [WRN] The 'bool' property 'IsActive' on entity type 'Customer' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:15:39.740 [WRN] The 'bool' property 'IsActive' on entity type 'EftTransaction' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-08 15:15:40.632 [INF] -------------Request-Begin------------
+2023-10-08 15:15:40.632 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+Request Body: 
+2023-10-08 15:15:40.632 [INF] 
+
+2023-10-08 15:15:40.632 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5237 
+Path: /vk/api/v1/MoneyTransfer/ByParameter 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"accountId":1,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":0.00,"creditAmount":50.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:26.965016","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"713e3e35ec84448e8f6340f055631fd6","debitAmount":50.00,"creditAmount":0.00,"description":"striwerwerwerwerwerwerwerng","transactionDate":"2023-10-01T12:06:28.81069","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":1,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":0.00,"creditAmount":50.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:58.145113","transactionCode":"Virement","accountName":"Lucy1 Account 1","accountNumber":687567,"customerNumber":100001,"customerName":"Lucy 1 Sellen"},{"accountId":2,"referenceNumber":"45a78b8c3df1411faace2b98a1f711d2","debitAmount":50.00,"creditAmount":0.00,"description":"asdasdasdasdsadasdasdsadasd","transactionDate":"2023-10-01T12:18:59.492197","transactionCode":"Virement","accountName":"Lucy1 Account 2","accountNumber":687568,"customerNumber":100001,"customerName":"Lucy 1 Sellen"}]}
+2023-10-08 15:15:40.632 [INF] -------------Request-End------------

@@ -5,10 +5,12 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
+using StackExchange.Redis;
 using Vk.Base.Logger;
 using Vk.Base.Token;
 using Vk.Data.Context;
@@ -48,6 +50,25 @@ public class Startup
         {
             x.RegisterValidatorsFromAssemblyContaining<BaseValidator>();
         });
+
+        services.AddMemoryCache();
+        
+        // redis
+        var redisConfig = new ConfigurationOptions();
+        redisConfig.EndPoints.Add(Configuration["Redis:Host"], Convert.ToInt32(Configuration["Redis:Port"]));
+        redisConfig.DefaultDatabase = 0;
+        services.AddStackExchangeRedisCache(opt =>
+        {
+            opt.ConfigurationOptions = redisConfig;
+            opt.InstanceName = Configuration["Redis:InstanceName"];
+        });
+
+        services.AddControllersWithViews(options =>
+            options.CacheProfiles.Add("Cache100", new CacheProfile
+            {
+                Duration = 100,
+                Location = ResponseCacheLocation.Any,
+            }));
 
         services.AddSwaggerGen(c =>
         {
@@ -106,7 +127,7 @@ public class Startup
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "VkApi v1"));
         }
 
-        
+
         app.UseMiddleware<ErrorHandlerMiddleware>();
         app.UseMiddleware<HeartBeatMiddleware>();
         Action<RequestProfilerModel> requestResponseHandler = requestProfilerModel =>
